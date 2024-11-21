@@ -135,8 +135,11 @@ int main(){
             printf("Grafo serializado\n");
             break;
         case 5:
-            printf("Deserializando grafo\n");
-            Grafo_Deserializar("Rutas_Pumabus.json");
+            printf("Ingrese el nombre del archivo a deserializar con el .json: ");
+            char nombre[50];
+            scanf("%s", nombre);
+            printf("\nDeserializando grafo\n");
+            Grafo_Deserializar(nombre);
             break;
         case 6:
             printf("Liberando memoria\n");
