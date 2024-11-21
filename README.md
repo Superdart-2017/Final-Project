@@ -17,6 +17,8 @@ gcc -fopenmp Busqueda_Binaria.c cJSON.c cJSON_Utils.c grafos.c menu.c QuickSort.
 
 Una vez ya compilado solo tendrá que ejecutar el programa y le aparecerá un menú como el siguiente:
 
-![menu](https://drive.google.com/file/d/1VjKG_IaynPBtc5m0N9iuda3XR7vZP0Jr/view)
+<p align="center">
+  <img src="Imagenes readme/Menu.png" alt="menu" width="500">
+</p>
 
 En dicho menú vienen varias opciones de las cuales se podrán emplear diversas funciones.
