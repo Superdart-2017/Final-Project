@@ -1,0 +1,100 @@
+{
+    "nombre_ruta": "Ruta Pumabus 3",
+    "num_estaciones": "11",
+    "estaciones": [
+        {
+            "id": "127",
+            "nombre": "Metro CU",
+            "num_conexiones": "2",
+            "conexiones": [
+                { "id": "256", "nombre": "Estadio Olímpico" },
+                { "id": "374", "nombre": "Facultad de Ciencias" }
+            ]
+        },
+        {
+            "id": "256",
+            "nombre": "Estadio Olímpico",
+            "num_conexiones": "2",
+            "conexiones": [
+                { "id": "127", "nombre": "Metro CU" },
+                { "id": "944", "nombre": "Estacion Metrobus" }
+            ]
+        },
+        {
+            "id": "374",
+            "nombre": "Instituto de Ciencias",
+            "num_conexiones": "2",
+            "conexiones": [
+                { "id": "127", "nombre": "Metro CU" },
+                { "id": "517", "nombre": "Instituto de Biologia" }
+            ]
+        },
+        {
+            "id": "944",
+            "nombre": "Estacion Metrobus",
+            "num_conexiones": "1",
+            "conexiones": [
+                { "id": "256", "nombre": "Estadio Olímpico" }
+            ]
+        },
+        {
+            "id": "517",
+            "nombre": "Instituto de Biologia",
+            "num_conexiones": "2",
+            "conexiones": [
+                { "id": "374", "nombre": "Instituto de Ciencias" },
+                { "id": "611", "nombre": "Instituto de Ingenieria" }
+            ]
+        },
+        {
+            "id": "611",
+            "nombre": "Instituto de Ingenieria",
+            "num_conexiones": "1",
+            "conexiones": [
+                { "id": "517", "nombre": "Instituto de Biologia" }
+            ]
+        },
+        {
+            "id": "71",
+            "nombre": "Anexo de Ingeniería",
+            "num_conexiones": "2",
+            "conexiones": [
+                { "id": "899", "nombre": "Instituo de Geofisica" },
+                { "id": "901", "nombre": "Facultad de Química" }
+            ]
+        },
+        {
+            "id": "899",
+            "nombre": "Instituo de Geofisica",
+            "num_conexiones": "1",
+            "conexiones": [
+                { "id": "71", "nombre": "Anexo de Ingeniería" }
+            ]
+        },
+        {
+            "id": "901",
+            "nombre": "Facultad de Química",
+            "num_conexiones": "1",
+            "conexiones": [
+                { "id": "71", "nombre": "Anexo de Ingeniería" }
+            ]
+        },
+        {
+            "id": "106",
+            "nombre": "Ciencias del mar",
+            "num_conexiones": "2",
+            "conexiones": [
+                { "id": "112", "nombre": "Alberca" },
+                { "id": "767", "nombre": "Tienda UNAM" }
+            ]
+        },
+        {
+            "id": "112",
+            "nombre": "Alberca",
+            "num_conexiones": "1",
+            "conexiones": [
+                { "id": "106", "nombre": "Ciencias del mar" }
+            ]
+        }
+    ]
+}

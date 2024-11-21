@@ -1,0 +1,114 @@
+{
+   "nombre_ruta": "Ruta Pumabus",
+   "num_estaciones": "11",
+   "estaciones": [
+
+      {
+      "id": "24",
+      "nombre": "Filosia y Letras",
+      "num_conexiones": "3",
+      "conexiones": [
+         { "id": "27", "nombre": "Psicología" },
+         { "id": "350", "nombre": "Medicina" },
+         { "id": "777", "nombre": "Arquitectura" }
+         ]
+      },
+
+      {
+      "id": "411",
+      "nombre": "Derecho",
+      "num_conexiones": "1",
+      "conexiones": [
+         { "id": "410", "nombre": "Odontologia" }
+         ]
+      },
+
+      {
+      "id": "66",
+      "nombre": "Economia",
+      "num_conexiones": "3",
+      "conexiones": [
+         { "id": "67", "nombre": "Ciencias" },
+         { "id": "411", "nombre": "Derecho" },
+         { "id": "518", "nombre": "Veterinaria y Zootecnia" }
+         ]
+      },
+
+      {
+      "id": "350",
+      "nombre": "Medicina",
+      "num_conexiones": "1",
+      "conexiones": [
+         { "id": "66", "nombre": "Economia" }
+         ]
+      },
+
+      {
+      "id": "410",
+      "nombre": "Odontologia",
+      "num_conexiones": "3",
+      "conexiones": [
+         { "id": "775", "nombre": "Ingenieria" },
+         { "id": "24", "nombre": "Filosia y Letras" },
+         { "id": "77", "nombre": "Contaduria y Administración" }
+         ]
+      },
+
+      {
+      "id": "775",
+      "nombre": "Ingenieria",
+      "num_conexiones": "2",
+      "conexiones": [
+         { "id": "27", "nombre": "Psicología" },
+         { "id": "410", "nombre": "Odontologia" }
+         ]
+      },
+
+      {
+      "id": "67",
+      "nombre": "Ciencias",
+      "num_conexiones": "1",
+      "conexiones": [
+         { "id": "350", "nombre": "Medicina" }
+         ]
+      },
+
+      {
+      "id": "27",
+      "nombre": "Psicología",
+      "num_conexiones": "1",
+      "conexiones": [
+         { "id": "67", "nombre": "Ciencias" }
+         ]
+      },
+
+      {
+      "id": "777",
+      "nombre": "Arquitectura",
+      "num_conexiones": "1",
+      "conexiones": [
+         { "id": "77", "nombre": "Contaduria y Administración" }
+         ]
+      },
+
+      {
+      "id": "77",
+      "nombre": "Contaduria y Administración",
+      "num_conexiones": "1",
+      "conexiones": [
+         { "id": "518", "nombre": "Veterinaria y Zootecnia" }
+         ]
+      },
+
+      {
+      "id": "518",
+      "nombre": "Veterinaria y Zootecnia",
+      "num_conexiones": "3",
+      "conexiones": [
+         { "id": "350", "nombre": "Medicina" },
+         { "id": "24", "nombre": "Filosia y Letras" },
+         { "id": "777", "nombre": "Arquitectura" }
+         ]
+      }   
+   ]   
+}
